@@ -3,6 +3,7 @@ $title="Thêm mới";
 include "header.php";
 if ($admin["cap"]>=3) {
         redirect_to();
+        // re
     }   
 ?>
     <body>
