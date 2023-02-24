@@ -1,0 +1,230 @@
+* {
+  margin:0;
+  padding:0;  
+}
+
+.tonho .info {
+  font-size:22px !important;
+}
+
+ul {
+  padding:0;
+  margin:0;
+}
+
+ul li {
+  list-style:none;
+}
+
+.tonho .item {
+  height:255px;
+  overflow:hidden;
+  border-top:dotted 2px;
+  padding:10px 0 10px 0;
+}
+
+.tonho .sp img {
+  max-height:190px;
+}
+
+.tonho .sp {
+  position:relative;
+  border-right:dotted 1px;
+}
+
+.tonho .sp .sl{
+  line-height: 0px;
+  z-index: 9;
+  text-align: center;
+  font-size: 30px;
+}
+
+.tonho .sp .sl b{
+  background: rgba(255,255,255,0.7);
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 0px 4px 0px 4px;
+}
+.tonho .list div {
+  margin:1px;
+  padding:0;
+  position:relative;
+}
+
+.tonho .list .if {
+  position:absolute;
+  bottom:-10px;
+  left:20px;
+  background:#fff;
+}
+
+.tonho .sp span {
+  right:0;
+  top:-8px;
+  color:red;
+  position:absolute;
+  cursor:pointer;
+}
+
+.del {
+  float:right;
+  text-align:right;
+  cursor:pointer;
+  color:red;
+}
+
+.clone {
+  float:right;
+  text-align:right;
+  cursor:pointer;
+  color:red;
+}
+
+.tb {
+  text-align:center;
+  font-size:20px;
+}
+@media print {
+  .sp span {
+    display:none !important;
+  }
+  .tb {
+    display:none;
+  }
+  .del {
+    display:none;
+  }
+  .clone {
+    display:none;
+  }
+  input {
+    border:none;
+  }
+  .menu{
+    display: none;
+  }
+  .disable{
+    display: none;
+  }
+}
+
+red {
+  color:red;
+}
+
+blue {
+  color:blue;
+}
+
+.bill_sm th {
+  font-weight:normal;
+  font-size:16px;
+}
+
+.bill_sm {
+  margin-top:5px;
+  font-size:20px;
+}
+
+.bill_sm b {
+  font-size:24px;
+}
+
+.tolon{
+  text-align:center;
+}
+
+.tolon .tt {
+  font-size:30px;
+}
+
+.tolon .tt b {
+  font-size:34px;
+  text-transform:capitalize;
+}
+
+.tolon .tt2 {
+  font-size:30px;
+}
+
+.tolon .tt2 p {
+  font-size:20px;
+  font-style:italic;
+}
+
+.tolon .tt2 b {
+  font-size:40px;
+}
+
+.tolon .cap {
+  font-size: 75px;
+  color: red;
+  font-weight: 900;
+  font-family: tahoma;
+  line-height: 90px;
+}
+
+.tolon .cap span {
+  font-size: 110px;
+  line-height: 160px;
+}
+
+.tolon .tt3 {
+  font-size:18px;
+}
+
+.tolon .left {
+  margin-top:5px;
+  border-top:dashed 2px;
+  padding-top:10px;
+}
+
+.tolon th {
+  padding:5px;
+}
+
+.left .item {
+  border:solid 1px;
+  margin:5px;
+  padding:5px;
+  display:inline-block;
+  height:125px;
+  position:relative;
+}
+
+.tolon .item img {
+  max-height:100%;
+  max-width:100%;
+  height:auto;
+  width:auto;
+}
+
+.tolon .item p {
+  position: absolute;
+  top: -10px;
+  left: -5px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 5px;
+  border: solid 2px;
+  line-height: 20px;
+  display: block;
+  padding: 2px;
+}
+
+.tolon .text_left {
+  text-align:left !important;
+}
+
+.menu ul li {
+  display:inline-block;
+  background:green;
+  font-size:24px;
+  padding:10px;
+  font-weight:bold;
+  color:#fff;
+  cursor:pointer;
+}
+.menu ul li a{
+  color: #fff;
+}
+
