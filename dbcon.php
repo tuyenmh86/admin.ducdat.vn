@@ -4,7 +4,7 @@
 
 
 
-    $dbc = mysqli_connect('localhost','root','root','test123123');
+    $dbc = mysqli_connect('localhost','root','','admin.ducdat.vn');
 
 
 
