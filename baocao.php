@@ -98,7 +98,6 @@ if (isset($_GET["t"]) and is_numeric($_GET["t"])) {
                                         <h4 class="header-title m-t-0 m-b-30">Sao kê chi tiết tháng <?=$t?> năm <?=$year?></h4>
                                        
                                         <?php $tmp_dt=$datas["all"]; include "inc/tb_baocao.php"?>       
-                                        <?php printf($data["all"]);exit()?>
                                     
                                 </div>
 

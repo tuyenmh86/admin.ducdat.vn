@@ -10,6 +10,8 @@
             <th>Tình trạng thanh toán</th>
             <th style="width: 100px">Ghi chú</th>
             <th style="width: 200px">Lịch Sử</th>
+            <th style="width: 200px">Ngày tạo</th>
+            
         </tr>
     </thead>
     <tbody>
@@ -50,6 +52,9 @@
         </td>
         <td title="Ghi chú"><?php $value["ghichu"]?></td>
         <td title="Lịch sử công nợ" style="font-size: 12px;"><?=$value["congno"]?></td>
+        <td title="Ngày tạo" style="font-size: 12px;">
+             <?php echo $value['his'][0]?>
+        </td>
     </tr>
 <?php endforeach ?>
       
